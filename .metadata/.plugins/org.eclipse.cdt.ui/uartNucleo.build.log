@@ -1,0 +1,10 @@
+19:15:44 **** Incremental Build of configuration Debug for project uartNucleo ****
+make -j8 all 
+arm-none-eabi-size   uartNucleo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15976	     20	   2924	  18920	   49e8	uartNucleo.elf
+Finished building: default.size.stdout
+ 
+
+19:15:44 Build Finished. 0 errors, 0 warnings. (took 620ms)
+

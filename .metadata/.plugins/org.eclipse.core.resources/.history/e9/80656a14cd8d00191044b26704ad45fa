@@ -1,0 +1,34 @@
+/*
+ * mpu6050.h
+ *
+ *  Created on: Jun 12, 2019
+ *      Author: PC
+ */
+
+#ifndef MPU6050_H_
+#define MPU6050_H_
+
+#define MPU_ADDRESS     0xD0
+/*MPU6050 register address*/
+#define  WHO_AM_I_REG    0x75
+#define  SAMPLE_RATE 0x19
+#define  PWR_MGMT_1 0x6B
+#define  CONFIG 0x1A
+#define  GYRO_CONFIG  0x1B
+#define  INIT_ENB 0x38
+#define  ACCEL_XOUT_H 0x3B
+#define  GYRO_ZOUT_L 0x48
+/*MPU config */
+#define  MPU_START 0x69
+#define  inter 0x01
+#define  gyro_con 0x18
+#define  gyroXF 1
+#define  sample_1khz 7
+#define  reg1 0x68
+#define  reg2 0x69
+#define  PI 3.141592654
+#define  RAD2DEC 57.29577951
+
+
+
+#endif /* MPU6050_H_ */

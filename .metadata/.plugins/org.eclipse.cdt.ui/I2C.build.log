@@ -1,0 +1,17 @@
+06:35:48 **** Incremental Build of configuration Debug for project I2C ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -Os -ffunction-sections -fdata-sections -mslow-flash-data -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -u _printf_float -o "I2C.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\I2C\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="I2C.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: I2C.elf
+ 
+arm-none-eabi-objdump -h -S  I2C.elf  > "I2C.list"
+arm-none-eabi-size   I2C.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20980	    488	   1768	  23236	   5ac4	I2C.elf
+Finished building: default.size.stdout
+ 
+Finished building: I2C.list
+ 
+
+06:35:50 Build Finished. 0 errors, 0 warnings. (took 1s.432ms)
+

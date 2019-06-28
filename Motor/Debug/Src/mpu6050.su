@@ -1,0 +1,5 @@
+mpu6050.c:20:2:__io_putchar	16	static
+mpu6050.c:46:8:ftoa	56	static
+mpu6050.c:135:6:init_MPU	64	static
+mpu6050.c:174:14:read_MPU	72	static
+mpu6050.c:196:20:process_MPU	136	static

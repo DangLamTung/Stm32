@@ -53,7 +53,7 @@ all: I2C.elf secondary-outputs
 
 # Tool invocations
 I2C.elf: $(OBJS) $(USER_OBJS) D:\STMworkspace\I2C\STM32F103C8TX_FLASH.ld
-	arm-none-eabi-g++ -u _printf_float -o "I2C.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\STMworkspace\I2C\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="I2C.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+	arm-none-eabi-g++ -u _printf_float -o "I2C.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\STMworkspace\I2C\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="I2C.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -1,0 +1,10 @@
+13:48:20 **** Incremental Build of configuration Debug for project blik ****
+make -j8 all 
+arm-none-eabi-size   blik.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4664	     20	   1572	   6256	   1870	blik.elf
+Finished building: default.size.stdout
+ 
+
+13:48:20 Build Finished. 0 errors, 0 warnings. (took 680ms)
+

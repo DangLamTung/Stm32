@@ -1,24 +1,10 @@
-17:23:06 **** Incremental Build of configuration Debug for project Motor ****
+15:02:10 **** Incremental Build of configuration Debug for project Motor ****
 make -j8 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-../Src/main.c: In function 'main':
-../Src/main.c:112:9: warning: unused variable 'j' [-Wunused-variable]
-   int i,j = 0;
-         ^
-../Src/main.c:112:7: warning: unused variable 'i' [-Wunused-variable]
-   int i,j = 0;
-       ^
-arm-none-eabi-g++ -o "Motor.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\Motor\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
-Finished building target: Motor.elf
- 
-arm-none-eabi-objdump -h -S  Motor.elf  > "Motor.list"
 arm-none-eabi-size   Motor.elf 
    text	   data	    bss	    dec	    hex	filename
-   9588	     20	   1876	  11484	   2cdc	Motor.elf
+  13988	    120	   1896	  16004	   3e84	Motor.elf
 Finished building: default.size.stdout
  
-Finished building: Motor.list
- 
 
-17:23:08 Build Finished. 0 errors, 2 warnings. (took 1s.597ms)
+15:02:11 Build Finished. 0 errors, 0 warnings. (took 1s.0ms)
 

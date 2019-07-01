@@ -107,6 +107,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   char ch;
   while(HAL_UART_Receive(&huart1, (uint8_t *)&ch, 1, 100)!=HAL_OK);
+  HAL_TIM_Base_Start(&htim1);
   while (1)
   {
     /* USER CODE END WHILE */

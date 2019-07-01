@@ -9,25 +9,7 @@
 #include <stdio.h>
 
 #define MAX_PRECISION	(10)
-#ifdef __GNUC__
-  /* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf
-     set to 'Yes') calls __io_putchar() */
-  #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
-#else
-  #define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
-  #define GETCHAR_PROTOTYPE int fgetc(FILE *f)
-#endif /* __GNUC__ */
-	PUTCHAR_PROTOTYPE
-{
-  /* Place your implementation of fputc here */
-  /* e.g. write a character to the USART */
-	HAL_UART_Transmit(&huart1, (uint8_t*)&ch,1,100);
 
-  /* Loop until the end of transmission */
-
-
-  return ch;
-}
 
 static const double rounders[MAX_PRECISION + 1] =
 {

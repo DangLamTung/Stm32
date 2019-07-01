@@ -1,4 +1,4 @@
-19:15:40 **** Incremental Build of configuration Debug for project lessonGPIO ****
+23:30:58 **** Incremental Build of configuration Debug for project lessonGPIO ****
 make -j8 all 
 arm-none-eabi-size   lessonGPIO.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   lessonGPIO.elf
 Finished building: default.size.stdout
  
 
-19:15:41 Build Finished. 0 errors, 0 warnings. (took 620ms)
+23:30:59 Build Finished. 0 errors, 0 warnings. (took 951ms)
 

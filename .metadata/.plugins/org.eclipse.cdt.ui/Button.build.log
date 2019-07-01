@@ -1,4 +1,4 @@
-19:15:35 **** Incremental Build of configuration Debug for project Button ****
+23:30:41 **** Incremental Build of configuration Debug for project Button ****
 make -j8 all 
 arm-none-eabi-size   Button.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   Button.elf
 Finished building: default.size.stdout
  
 
-19:15:36 Build Finished. 0 errors, 0 warnings. (took 625ms)
+23:30:42 Build Finished. 0 errors, 0 warnings. (took 1s.10ms)
 

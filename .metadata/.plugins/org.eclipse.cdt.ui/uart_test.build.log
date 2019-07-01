@@ -1,17 +1,10 @@
-16:18:50 **** Incremental Build of configuration Debug for project uart_test ****
+23:31:14 **** Build of configuration Debug for project uart_test ****
 make -j8 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-g++ -o "uart_test.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\uart_test\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
-Finished building target: uart_test.elf
- 
-arm-none-eabi-objdump -h -S  uart_test.elf  > "uart_test.list"
 arm-none-eabi-size   uart_test.elf 
    text	   data	    bss	    dec	    hex	filename
   10172	    120	   1648	  11940	   2ea4	uart_test.elf
 Finished building: default.size.stdout
  
-Finished building: uart_test.list
- 
 
-16:18:52 Build Finished. 0 errors, 0 warnings. (took 1s.723ms)
+23:31:15 Build Finished. 0 errors, 0 warnings. (took 745ms)
 

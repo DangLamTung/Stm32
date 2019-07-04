@@ -76,6 +76,7 @@ void process_MPU();
 /*Complementary filter constant*/
 
 volatile float com_angle;
+volatile float pre_com_angle;
 void complementary_filter(float roll_acc,float gyro_acc,float dt);
 
 #endif /* MPU6050_H_ */

@@ -4,7 +4,8 @@
 float Kp, Ki, Kd;
 float dt;
 float P,I,D;
-int PID_value;
+volatile int PID_value;
+volatile int PID_value_pre;
 
 volatile int dir;
 volatile float err;

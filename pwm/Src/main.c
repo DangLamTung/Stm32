@@ -70,8 +70,8 @@ static void MX_TIM1_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-    volatile int duty = 360;
-    volatile int duty_1 = 360;
+    volatile int duty = 36;
+    volatile int duty_1 = 36;
     int pwm = 0;
 	void PWM_Control_1(int duty){
 
@@ -80,16 +80,17 @@ static void MX_TIM1_Init(void);
 		  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_10,GPIO_PIN_SET);
 		  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_11,GPIO_PIN_RESET);
 
-//		  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_SET);
-//		  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_RESET);
-		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, duty);
 		}
 		else{
 		  duty = -duty;
 		  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_10,GPIO_PIN_RESET);
 		  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_11,GPIO_PIN_SET);
-		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, duty);
 		}
+		 if(duty < 800)
+		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, duty);
+		else
+	      __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 800);
+
 	}
 
 	void PWM_Control_2(int duty){
@@ -97,24 +98,25 @@ static void MX_TIM1_Init(void);
 			  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_RESET);
 			  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_SET);
 
-		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, duty);
 		}
 		else{
 	      duty = -duty;
 		  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_SET);
 		  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_RESET);
-		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, duty);
 		}
+		 if(duty < 850)
+				  			  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, duty + 50);
+				                else
+				              	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, 850);
+
 	}
 
 	  void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 	  {
 	      if (__HAL_TIM_GET_IT_SOURCE(&htim1,TIM_IT_UPDATE)) {
+	    	 // pre_com_angle = com_angle; // đạo hàm, lúc trước khi lấy mẫu cái hiện tại đã thành cái mới
 	    	  process_MPU();
-//	    	  if(com_angle > 40 || com_angle < -40)
-//                  duty = 0;
-//	    	  else
-	    		  duty = (int) com_angle*50;
+	    	  duty = PID(0,com_angle);
 	      }
 	  }
 /* USER CODE END 0 */
@@ -172,7 +174,7 @@ int main(void)
     /* USER CODE BEGIN 3 */
 
 	  PWM_Control_1(duty);
-	  PWM_Control_2(duty_1);
+	  PWM_Control_2(duty);
   }
   /* USER CODE END 3 */
 }
@@ -313,7 +315,7 @@ static void MX_TIM2_Init(void)
 
   /* USER CODE END TIM2_Init 1 */
   htim2.Instance = TIM2;
-  htim2.Init.Prescaler = 36;
+  htim2.Init.Prescaler = 3;
   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
   htim2.Init.Period = 1000;
   htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;

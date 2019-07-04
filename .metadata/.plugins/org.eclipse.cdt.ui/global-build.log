@@ -33029,3 +33029,2780 @@ arm-none-eabi-size   pwm.elf
   23264	    128	   1944	  25336	   62f8	pwm.elf
 Finished building: default.size.stdout
  
+21:43:56 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23560	    132	   1948	  25640	   6428	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+21:45:56 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23560	    128	   1944	  25632	   6420	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+21:46:48 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23560	    128	   1944	  25632	   6420	pwm.elf
+Finished building: default.size.stdout
+ 
+21:53:35 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23656	    128	   1944	  25728	   6480	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+21:53:57 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23656	    128	   1944	  25728	   6480	pwm.elf
+Finished building: default.size.stdout
+ 
+21:56:57 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23656	    128	   1944	  25728	   6480	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:07:25 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23656	    128	   1944	  25728	   6480	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:10:35 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23656	    128	   1944	  25728	   6480	pwm.elf
+Finished building: default.size.stdout
+ 
+22:14:44 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23656	    128	   1944	  25728	   6480	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:18:07 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23632	    128	   1944	  25704	   6468	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:19:40 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23632	    128	   1944	  25704	   6468	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:20:00 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23632	    128	   1944	  25704	   6468	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:20:38 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23632	    128	   1944	  25704	   6468	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:21:31 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23632	    128	   1944	  25704	   6468	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:22:08 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23632	    128	   1944	  25704	   6468	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:30:33 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23544	    128	   1944	  25616	   6410	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:37:29 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23544	    128	   1944	  25616	   6410	pwm.elf
+Finished building: default.size.stdout
+ 
+22:38:59 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23544	    128	   1944	  25616	   6410	pwm.elf
+Finished building: default.size.stdout
+ 
+22:39:12 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23544	    128	   1944	  25616	   6410	pwm.elf
+Finished building: default.size.stdout
+ 
+22:40:44 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23552	    128	   1944	  25624	   6418	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:44:31 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23552	    128	   1944	  25624	   6418	pwm.elf
+Finished building: default.size.stdout
+ 
+22:54:43 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23552	    128	   1944	  25624	   6418	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:54:53 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23552	    128	   1944	  25624	   6418	pwm.elf
+Finished building: default.size.stdout
+ 
+22:55:02 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23552	    128	   1944	  25624	   6418	pwm.elf
+Finished building: default.size.stdout
+ 
+22:55:28 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23552	    128	   1944	  25624	   6418	pwm.elf
+Finished building: default.size.stdout
+ 
+23:00:24 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23552	    128	   1944	  25624	   6418	pwm.elf
+Finished building: default.size.stdout
+ 
+23:01:06 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23560	    128	   1944	  25632	   6420	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:14:49 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23560	    128	   1944	  25632	   6420	pwm.elf
+Finished building: default.size.stdout
+ 
+23:17:01 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23552	    128	   1944	  25624	   6418	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:37:18 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'PWM_Control_1':
+../Src/main.c:92:22: warning: implicit declaration of function 'HAL_TIM_SET_COMPARE'; did you mean '__HAL_TIM_SET_COMPARE'? [-Wimplicit-function-declaration]
+                      HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 80);
+                      ^~~~~~~~~~~~~~~~~~~
+                      __HAL_TIM_SET_COMPARE
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Src/main.o: In function `PWM_Control_1':
+D:/STMworkspace/pwm/Debug/../Src/main.c:92: undefined reference to `HAL_TIM_SET_COMPARE'
+Src/main.o: In function `PWM_Control_2':
+D:/STMworkspace/pwm/Debug/../Src/main.c:110: undefined reference to `HAL_TIM_SET_COMPARE'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:56: pwm.elf] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+23:37:43 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'PWM_Control_2':
+../Src/main.c:110:22: warning: implicit declaration of function 'HAL_TIM_SET_COMPARE'; did you mean '__HAL_TIM_SET_COMPARE'? [-Wimplicit-function-declaration]
+                      HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, 80);
+                      ^~~~~~~~~~~~~~~~~~~
+                      __HAL_TIM_SET_COMPARE
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Src/main.o: In function `PWM_Control_2':
+D:/STMworkspace/pwm/Debug/../Src/main.c:110: undefined reference to `HAL_TIM_SET_COMPARE'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:56: pwm.elf] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+23:37:52 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23576	    128	   1944	  25648	   6430	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:39:51 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23576	    128	   1944	  25648	   6430	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:40:49 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23576	    128	   1944	  25648	   6430	pwm.elf
+Finished building: default.size.stdout
+ 
+23:41:17 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23576	    128	   1944	  25648	   6430	pwm.elf
+Finished building: default.size.stdout
+ 
+23:41:33 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23576	    128	   1944	  25648	   6430	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:41:50 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23576	    128	   1944	  25648	   6430	pwm.elf
+Finished building: default.size.stdout
+ 
+23:42:01 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23576	    128	   1944	  25648	   6430	pwm.elf
+Finished building: default.size.stdout
+ 
+23:43:22 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23576	    128	   1944	  25648	   6430	pwm.elf
+Finished building: default.size.stdout
+ 
+23:44:46 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:47:04 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:47:20 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+23:48:25 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:49:10 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:50:10 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:52:26 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:52:41 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+23:53:20 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:55:08 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:55:16 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:55:49 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:59:15 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:59:29 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+23:59:39 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+00:00:14 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+00:01:47 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:03:16 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:03:34 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+00:06:09 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:06:33 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23632	    128	   1944	  25704	   6468	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:06:47 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23632	    128	   1944	  25704	   6468	pwm.elf
+Finished building: default.size.stdout
+ 
+00:10:57 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:12:09 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23632	    128	   1944	  25704	   6468	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:14:01 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:17:07 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23648	    128	   1944	  25720	   6478	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:18:33 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:19:07 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:19:50 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:20:03 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+00:21:53 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:22:06 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+00:22:31 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+11:02:16 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+11:02:45 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23616	    128	   1944	  25688	   6458	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+11:03:00 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23616	    128	   1944	  25688	   6458	pwm.elf
+Finished building: default.size.stdout
+ 
+11:03:09 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23616	    128	   1944	  25688	   6458	pwm.elf
+Finished building: default.size.stdout
+ 
+11:03:28 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23616	    128	   1944	  25688	   6458	pwm.elf
+Finished building: default.size.stdout
+ 
+11:03:42 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23616	    128	   1944	  25688	   6458	pwm.elf
+Finished building: default.size.stdout
+ 
+11:03:50 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23616	    128	   1944	  25688	   6458	pwm.elf
+Finished building: default.size.stdout
+ 
+11:04:57 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23616	    128	   1944	  25688	   6458	pwm.elf
+Finished building: default.size.stdout
+ 
+11:06:07 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23616	    128	   1944	  25688	   6458	pwm.elf
+Finished building: default.size.stdout
+ 
+11:06:20 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23616	    128	   1944	  25688	   6458	pwm.elf
+Finished building: default.size.stdout
+ 
+11:06:33 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23616	    128	   1944	  25688	   6458	pwm.elf
+Finished building: default.size.stdout
+ 
+11:08:34 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23616	    128	   1944	  25688	   6458	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+11:09:18 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23616	    128	   1944	  25688	   6458	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+11:09:42 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23616	    128	   1944	  25688	   6458	pwm.elf
+Finished building: default.size.stdout
+ 
+11:11:54 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23616	    128	   1944	  25688	   6458	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+21:23:59 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   1992	  26104	   65f8	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+21:26:05 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   1992	  26104	   65f8	pwm.elf
+Finished building: default.size.stdout
+ 
+21:31:14 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   1992	  26104	   65f8	pwm.elf
+Finished building: default.size.stdout
+ 
+21:32:17 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   1992	  26104	   65f8	pwm.elf
+Finished building: default.size.stdout
+ 
+21:33:00 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23640	    128	   1944	  25712	   6470	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+21:37:56 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/mpu6050.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/mpu6050.d" -MT"Src/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/mpu6050.o"
+../Src/mpu6050.c: In function 'init_MPU':
+../Src/mpu6050.c:124:6: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+      strcpy( rx_data, "No Device \r \n");
+      ^~~~~~
+../Src/mpu6050.c:124:6: warning: incompatible implicit declaration of built-in function 'strcpy'
+../Src/mpu6050.c:124:6: note: include '<string.h>' or provide a declaration of 'strcpy'
+../Src/mpu6050.c:127:8: warning: incompatible implicit declaration of built-in function 'strcpy'
+        strcpy( rx_data, "Device found \r \n");
+        ^~~~~~
+../Src/mpu6050.c:127:8: note: include '<string.h>' or provide a declaration of 'strcpy'
+../Src/mpu6050.c: In function 'process_MPU':
+../Src/mpu6050.c:212:9: warning: implicit declaration of function 'atan2' [-Wimplicit-function-declaration]
+  roll = atan2(Acc_y,Acc_z)*RAD2DEC;
+         ^~~~~
+../Src/mpu6050.c:212:9: warning: incompatible implicit declaration of built-in function 'atan2'
+../Src/mpu6050.c:212:9: note: include '<math.h>' or provide a declaration of 'atan2'
+../Src/mpu6050.c:214:10: warning: implicit declaration of function 'atan' [-Wimplicit-function-declaration]
+  pitch = atan(-Acc_x/sqrt(Acc_y*Acc_y+Acc_z*Acc_z))*RAD2DEC;
+          ^~~~
+../Src/mpu6050.c:214:10: warning: incompatible implicit declaration of built-in function 'atan'
+../Src/mpu6050.c:214:10: note: include '<math.h>' or provide a declaration of 'atan'
+../Src/mpu6050.c:214:22: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  pitch = atan(-Acc_x/sqrt(Acc_y*Acc_y+Acc_z*Acc_z))*RAD2DEC;
+                      ^~~~
+../Src/mpu6050.c:214:22: warning: incompatible implicit declaration of built-in function 'sqrt'
+../Src/mpu6050.c:214:22: note: include '<math.h>' or provide a declaration of 'sqrt'
+../Src/mpu6050.c:220:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, buffer, 7, 1000);
+                                ^~~~~~
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:221:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, &n, 1, 1000);
+                                ^
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:241:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, &r, 1, 1000);
+                                ^
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:181:58: warning: unused variable 'roll_com' [-Wunused-variable]
+  float Acc_x,Acc_y,Acc_z,Gyro_x,Gyro_y,Gyro_z,roll,pitch,roll_com;
+                                                          ^~~~~~~~
+../Src/mpu6050.c:181:47: warning: variable 'roll' set but not used [-Wunused-but-set-variable]
+  float Acc_x,Acc_y,Acc_z,Gyro_x,Gyro_y,Gyro_z,roll,pitch,roll_com;
+                                               ^~~~
+../Src/mpu6050.c:180:21: warning: unused variable 'data1' [-Wunused-variable]
+  mpu_data_processed data1;
+                     ^~~~~
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+21:38:24 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+21:47:07 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+21:56:01 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+21:56:09 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+21:56:20 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+22:11:15 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+22:11:38 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+22:12:22 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:19:17 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23768	    128	   1952	  25848	   64f8	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:19:34 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23768	    128	   1952	  25848	   64f8	pwm.elf
+Finished building: default.size.stdout
+ 
+22:21:17 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23768	    128	   1952	  25848	   64f8	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:24:00 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:24:45 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:28:37 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:29:21 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+22:31:22 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:34:18 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Src/main.c:125:49: error: invalid suffix "S" on integer constant
+             duty = -50 + (int) ((com_angle*4) + 3S*(com_angle - pre_com_angle));
+                                                 ^~
+make: *** [Src/subdir.mk:41: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+22:34:55 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:36:12 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:38:15 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:40:14 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:42:20 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:42:38 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+22:43:22 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+22:43:31 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+22:43:56 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+22:44:47 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+22:44:55 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23744	    128	   1952	  25824	   64e0	pwm.elf
+Finished building: default.size.stdout
+ 
+22:45:16 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:45:26 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+22:45:44 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+22:46:18 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+22:47:19 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+22:47:32 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+22:49:31 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:51:50 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+22:52:03 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:53:44 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23720	    128	   1952	  25800	   64c8	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:54:13 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23720	    128	   1952	  25800	   64c8	pwm.elf
+Finished building: default.size.stdout
+ 
+23:04:59 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:05:16 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+23:06:13 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+23:25:21 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+23:55:10 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23736	    128	   1952	  25816	   64d8	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:56:19 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23760	    128	   1952	  25840	   64f0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:57:47 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23760	    128	   1952	  25840	   64f0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+23:58:52 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23760	    128	   1952	  25840	   64f0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:14:19 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23760	    128	   1952	  25840	   64f0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:14:45 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23760	    128	   1952	  25840	   64f0	pwm.elf
+Finished building: default.size.stdout
+ 
+00:17:23 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23760	    128	   1952	  25840	   64f0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:18:46 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23760	    128	   1952	  25840	   64f0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:19:53 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23760	    128	   1952	  25840	   64f0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:22:54 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:23:30 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:24:25 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:25:49 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+00:26:10 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+00:27:08 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:27:24 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+00:28:07 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:28:51 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:29:45 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:30:05 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:30:16 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+00:30:39 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+00:31:15 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:33:18 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:33:30 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+00:33:42 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+00:34:00 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+00:34:10 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+00:35:03 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+00:35:19 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+00:36:27 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:36:47 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+00:37:06 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:37:22 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+00:37:45 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:38:19 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:38:45 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24000	    128	   2000	  26128	   6610	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:45:21 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24016	    128	   2000	  26144	   6620	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:45:45 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24016	    128	   2000	  26144	   6620	pwm.elf
+Finished building: default.size.stdout
+ 
+00:45:59 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24016	    128	   2000	  26144	   6620	pwm.elf
+Finished building: default.size.stdout
+ 
+00:47:06 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24016	    128	   2000	  26144	   6620	pwm.elf
+Finished building: default.size.stdout
+ 
+00:49:13 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:51:08 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:52:00 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+00:52:51 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:53:08 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+00:53:32 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+00:54:35 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:55:29 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:56:01 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:56:35 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+00:57:54 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+01:00:24 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+01:01:59 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23968	    128	   2000	  26096	   65f0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+01:02:23 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23968	    128	   2000	  26096	   65f0	pwm.elf
+Finished building: default.size.stdout
+ 
+01:03:21 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23968	    128	   2000	  26096	   65f0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+01:03:54 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23968	    128	   2000	  26096	   65f0	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+01:04:17 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+01:04:32 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+01:05:05 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+01:05:53 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+01:06:48 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+01:07:00 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+01:07:41 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+09:18:20 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+09:18:44 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+09:19:58 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+09:21:03 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+09:21:27 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+09:28:42 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+09:28:54 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+09:30:17 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+09:30:33 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+09:31:09 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+09:31:48 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+16:52:56 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+16:54:39 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+16:55:00 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+16:56:04 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+16:56:27 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+16:57:17 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+16:58:52 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+16:59:57 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+17:00:25 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+17:01:00 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+17:01:46 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+17:02:13 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+17:02:25 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+17:03:30 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+17:04:45 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+17:30:07 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+17:31:43 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+17:32:45 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+17:33:32 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23984	    128	   2000	  26112	   6600	pwm.elf
+Finished building: default.size.stdout
+ 
+17:35:20 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+17:36:57 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+17:37:17 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+18:19:10 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+18:19:47 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+18:20:05 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+22:35:36 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/PID.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/PID.d" -MT"Src/PID.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/PID.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:36:39 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23992	    128	   2000	  26120	   6608	pwm.elf
+Finished building: default.size.stdout
+ 
+22:41:28 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14300	     24	   1952	  16276	   3f94	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:42:27 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14300	     24	   1952	  16276	   3f94	pwm.elf
+Finished building: default.size.stdout
+ 
+22:42:52 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14304	     24	   1952	  16280	   3f98	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:44:52 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c:259:13: warning: 'MX_TIM1_Init' defined but not used [-Wunused-function]
+ static void MX_TIM1_Init(void)
+             ^~~~~~~~~~~~
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13132	     24	   1952	  15108	   3b04	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 
+22:45:02 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13132	     24	   1952	  15108	   3b04	pwm.elf
+Finished building: default.size.stdout
+ 
+22:45:10 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13132	     24	   1952	  15108	   3b04	pwm.elf
+Finished building: default.size.stdout
+ 
+22:45:50 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13132	     24	   1952	  15108	   3b04	pwm.elf
+Finished building: default.size.stdout
+ 
+22:46:38 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13132	     24	   1952	  15108	   3b04	pwm.elf
+Finished building: default.size.stdout
+ 
+22:46:58 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-g++ -o "pwm.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\pwm\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: pwm.elf
+ 
+arm-none-eabi-objdump -h -S  pwm.elf  > "pwm.list"
+arm-none-eabi-size   pwm.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14304	     24	   1952	  16280	   3f98	pwm.elf
+Finished building: default.size.stdout
+ 
+Finished building: pwm.list
+ 

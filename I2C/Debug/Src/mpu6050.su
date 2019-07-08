@@ -3,3 +3,4 @@ mpu6050.c:46:8:ftoa	112	static
 mpu6050.c:135:6:init_MPU	64	static
 mpu6050.c:174:14:read_MPU	80	static
 mpu6050.c:196:20:process_MPU	168	static
+mpu6050.c:259:6:calib_MPU	104	static

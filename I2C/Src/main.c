@@ -20,7 +20,6 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "mpu6050.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -108,13 +107,10 @@ int main(void)
   char ch;
   while(HAL_UART_Receive(&huart1, (uint8_t *)&ch, 1, 100)!=HAL_OK);
   HAL_TIM_Base_Start(&htim1);
+  calib_MPU();
   while (1)
   {
     /* USER CODE END WHILE */
-
-
-		process_MPU();
-
 
     /* USER CODE BEGIN 3 */
   }
@@ -211,9 +207,9 @@ static void MX_TIM1_Init(void)
 
   /* USER CODE END TIM1_Init 1 */
   htim1.Instance = TIM1;
-  htim1.Init.Prescaler = 63;
+  htim1.Init.Prescaler = 63999;
   htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim1.Init.Period = 50000;
+  htim1.Init.Period = 0;
   htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim1.Init.RepetitionCounter = 0;
   htim1.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;

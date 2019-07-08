@@ -37,6 +37,7 @@ uint8_t data;
 uint8_t data_raw[13];
 
 float temp,roll,pitch;
+float bAx, bAy, bAz, bGx, bGy, bGz;
 
 #define  PI 3.141592654
 #define  RAD2DEC 57.29577951
@@ -54,17 +55,7 @@ typedef struct  {
 	float   Temperature;       /*!< Temperature in degrees */
 } mpu_data_raw;
 
-typedef struct  {
-	float roll;
-	float pitch;
-	float yaw;
 
-	float gyroX;
-	float gyroY;
-	float gyroZ;
-	float   Temperature;       /*!< Temperature in degrees */
-
-} mpu_data_processed;
 
 I2C_HandleTypeDef hi2c1;
 UART_HandleTypeDef huart1;
@@ -78,5 +69,5 @@ void process_MPU();
 volatile float com_angle;
 volatile float pre_com_angle;
 void complementary_filter(float roll_acc,float gyro_acc,float dt);
-
+void calib_MPU();
 #endif /* MPU6050_H_ */

@@ -37,6 +37,7 @@ uint8_t data;
 uint8_t data_raw[13];
 
 float temp,roll,pitch;
+float bAx, bAy, bAz, bGx, bGy, bGz;
 
 #define  PI 3.141592654
 #define  RAD2DEC 57.29577951
@@ -72,7 +73,7 @@ UART_HandleTypeDef huart1;
 char init_MPU();
 mpu_data_raw read_MPU();
 mpu_data_processed process_MPU();
-
+void calib_MPU();
 
 
 #endif /* MPU6050_H_ */

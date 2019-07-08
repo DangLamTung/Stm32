@@ -1,10 +1,186 @@
-15:02:10 **** Incremental Build of configuration Debug for project Motor ****
+11:48:49 **** Incremental Build of configuration Debug for project Motor ****
 make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/mpu6050.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/mpu6050.d" -MT"Src/mpu6050.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/mpu6050.o"
+../Src/mpu6050.c: In function 'init_MPU':
+../Src/mpu6050.c:124:6: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+      strcpy( rx_data, "No Device \r \n");
+      ^~~~~~
+../Src/mpu6050.c:124:6: warning: incompatible implicit declaration of built-in function 'strcpy'
+../Src/mpu6050.c:124:6: note: include '<string.h>' or provide a declaration of 'strcpy'
+../Src/mpu6050.c:127:8: warning: incompatible implicit declaration of built-in function 'strcpy'
+        strcpy( rx_data, "Device found \r \n");
+        ^~~~~~
+../Src/mpu6050.c:127:8: note: include '<string.h>' or provide a declaration of 'strcpy'
+../Src/mpu6050.c:121:13: warning: unused variable 'register_address' [-Wunused-variable]
+     uint8_t register_address = WHO_AM_I_REG;
+             ^~~~~~~~~~~~~~~~
+../Src/mpu6050.c: In function 'read_MPU':
+../Src/mpu6050.c:160:13: warning: unused variable 'register_address' [-Wunused-variable]
+     uint8_t register_address = WHO_AM_I_REG;
+             ^~~~~~~~~~~~~~~~
+../Src/mpu6050.c: In function 'process_MPU':
+../Src/mpu6050.c:212:9: warning: implicit declaration of function 'atan2' [-Wimplicit-function-declaration]
+  roll = atan2(Acc_y,Acc_z)*RAD2DEC;
+         ^~~~~
+../Src/mpu6050.c:212:9: warning: incompatible implicit declaration of built-in function 'atan2'
+../Src/mpu6050.c:212:9: note: include '<math.h>' or provide a declaration of 'atan2'
+../Src/mpu6050.c:214:10: warning: implicit declaration of function 'atan' [-Wimplicit-function-declaration]
+  pitch = atan(-Acc_x/sqrt(Acc_y*Acc_y+Acc_z*Acc_z))*RAD2DEC;
+          ^~~~
+../Src/mpu6050.c:214:10: warning: incompatible implicit declaration of built-in function 'atan'
+../Src/mpu6050.c:214:10: note: include '<math.h>' or provide a declaration of 'atan'
+../Src/mpu6050.c:214:22: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  pitch = atan(-Acc_x/sqrt(Acc_y*Acc_y+Acc_z*Acc_z))*RAD2DEC;
+                      ^~~~
+../Src/mpu6050.c:214:22: warning: incompatible implicit declaration of built-in function 'sqrt'
+../Src/mpu6050.c:214:22: note: include '<math.h>' or provide a declaration of 'sqrt'
+../Src/mpu6050.c:217:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, buffer, 7, 1000);
+                                ^~~~~~
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:218:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, &n, 1, 1000);
+                                ^
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:221:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, buffer, 7, 1000);
+                                ^~~~~~
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:222:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, &n, 1, 1000);
+                                ^
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:225:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, buffer, 7, 1000);
+                                ^~~~~~
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:226:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, &n, 1, 1000);
+                                ^
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:229:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, buffer, 7, 1000);
+                                ^~~~~~
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:230:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, &n, 1, 1000);
+                                ^
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:233:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, buffer, 7, 1000);
+                                ^~~~~~
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:234:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, &n, 1, 1000);
+                                ^
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:237:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, buffer, 7, 1000);
+                                ^~~~~~
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:238:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+     HAL_UART_Transmit(&huart1, &r, 1, 1000);
+                                ^
+In file included from ../Inc/stm32f1xx_hal_conf.h:319:0,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:46,
+                 from ../Inc/mpu6050.h:11,
+                 from ../Src/mpu6050.c:7:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:635:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Src/mpu6050.c:185:13: warning: unused variable 'register_address' [-Wunused-variable]
+     uint8_t register_address = WHO_AM_I_REG;
+             ^~~~~~~~~~~~~~~~
+../Src/mpu6050.c:180:52: warning: variable 'pitch' set but not used [-Wunused-but-set-variable]
+  float Acc_x,Acc_y,Acc_z,Gyro_x,Gyro_y,Gyro_z,roll,pitch;
+                                                    ^~~~~
+../Src/mpu6050.c:180:47: warning: variable 'roll' set but not used [-Wunused-but-set-variable]
+  float Acc_x,Acc_y,Acc_z,Gyro_x,Gyro_y,Gyro_z,roll,pitch;
+                                               ^~~~
+../Src/mpu6050.c:179:21: warning: unused variable 'data1' [-Wunused-variable]
+  mpu_data_processed data1;
+                     ^~~~~
+../Src/mpu6050.c:239:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+arm-none-eabi-g++ -o "Motor.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STMworkspace\Motor\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Motor.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Motor.elf
+ 
+arm-none-eabi-objdump -h -S  Motor.elf  > "Motor.list"
 arm-none-eabi-size   Motor.elf 
    text	   data	    bss	    dec	    hex	filename
   13988	    120	   1896	  16004	   3e84	Motor.elf
 Finished building: default.size.stdout
  
+Finished building: Motor.list
+ 
 
-15:02:11 Build Finished. 0 errors, 0 warnings. (took 1s.0ms)
+11:48:51 Build Finished. 0 errors, 28 warnings. (took 1s.933ms)
 

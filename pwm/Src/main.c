@@ -43,6 +43,14 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+char mode;
+char buffer[4];
+int pid_data[8];
+volatile int i = 0;
+
+volatile int duty = 0;
+volatile int duty_1 = 0;
+
 I2C_HandleTypeDef hi2c1;
 
 TIM_HandleTypeDef htim1;
@@ -70,9 +78,16 @@ static void MX_TIM1_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-    volatile int duty = 36;
-    volatile int duty_1 = 36;
-    int pwm = 0;
+
+    void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+    {
+    	if (huart->Instance == USART1)  //current UART
+    	{
+              HAL_UART_Receive_IT(&huart1, &mode, 1);   //activate UART receive interrupt every time
+    	}
+    }
+
+
 	void PWM_Control_1(int duty){
 
 		if(duty > 0){
@@ -86,10 +101,9 @@ static void MX_TIM1_Init(void);
 		  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_10,GPIO_PIN_RESET);
 		  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_11,GPIO_PIN_SET);
 		}
-		 if(duty < 800)
+
 		  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, duty);
-		else
-	      __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 800);
+
 
 	}
 
@@ -104,10 +118,9 @@ static void MX_TIM1_Init(void);
 		  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_SET);
 		  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_RESET);
 		}
-		 if(duty < 850)
-				  			  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, duty + 50);
-				                else
-				              	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, 850);
+
+		__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, duty);
+
 
 	}
 
@@ -117,6 +130,7 @@ static void MX_TIM1_Init(void);
 	    	 // pre_com_angle = com_angle; // đạo hàm, lúc trước khi lấy mẫu cái hiện tại đã thành cái mới
 	    	  process_MPU();
 	    	  duty = PID(0,com_angle);
+	    	  duty_1 = PID_1(0,com_angle);
 	      }
 	  }
 /* USER CODE END 0 */
@@ -163,18 +177,40 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_3);
   HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_4);
-  HAL_TIM_Base_Start_IT(&htim1);
-  //HAL_TIM_Encoder_Start(&htim3,TIM_CHANNEL_1);
-  //HAL_TIM_Encoder_Start(&htim3,TIM_CHANNEL_2);
- init_MPU();
-  while (1)
-  {
+
+
+  init_MPU();
     /* USER CODE END WHILE */
-
+  while(1){
     /* USER CODE BEGIN 3 */
+	HAL_UART_Receive_IT(&huart1, &mode, 1);
+    if(mode == 's'){
+    	HAL_TIM_Base_Start_IT(&htim1);
+        while (1)
+        {
+	      PWM_Control_1(duty);
+	      PWM_Control_2(duty_1);
+        }
+     }
+     if(mode == 'c'){
+	     calib_MPU();
+     }
+     if(mode == 'p'){
+    	 HAL_UART_DeInit(&huart1);
+    	 MX_USART1_UART_Init();
+    	 while(1){
+    		 while(i<8){
+    	        if(HAL_UART_Receive(&huart1, &buffer, 4, 1000) == HAL_OK){
+    	         pid_data[i] = atoi(buffer);
+    	         i++;
+    	       }
+    		 }
 
-	  PWM_Control_1(duty);
-	  PWM_Control_2(duty);
+            	 HAL_UART_Receive_IT(&huart1, &mode, 1);
+            	 mode = ' ';
+            	 break;
+    	 }
+     }
   }
   /* USER CODE END 3 */
 }
@@ -269,9 +305,9 @@ static void MX_TIM1_Init(void)
 
   /* USER CODE END TIM1_Init 1 */
   htim1.Instance = TIM1;
-  htim1.Init.Prescaler = 7199;
+  htim1.Init.Prescaler = 719;
   htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim1.Init.Period = 100;
+  htim1.Init.Period = 1000;
   htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim1.Init.RepetitionCounter = 0;
   htim1.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
@@ -315,9 +351,9 @@ static void MX_TIM2_Init(void)
 
   /* USER CODE END TIM2_Init 1 */
   htim2.Instance = TIM2;
-  htim2.Init.Prescaler = 3;
+  htim2.Init.Prescaler = 0;
   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim2.Init.Period = 1000;
+  htim2.Init.Period = 7199;
   htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   if (HAL_TIM_PWM_Init(&htim2) != HAL_OK)

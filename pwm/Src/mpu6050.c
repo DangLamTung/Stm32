@@ -177,7 +177,7 @@ mpu_data_raw read_MPU(){
 }
 
 void process_MPU(){
-	mpu_data_processed data1;
+
 	float Acc_x,Acc_y,Acc_z,Gyro_x,Gyro_y,Gyro_z,roll,pitch,roll_com;
 
 	uint8_t data[13];
@@ -197,13 +197,13 @@ void process_MPU(){
     Gyro_y = (int16_t)(data[10] << 8 | data[11]);
     Gyro_z = (int16_t)(data[12] << 8 | data[13]);
 
-	Acc_x = Acc_x/((float)accel_factor);
-	Acc_y = Acc_y/((float)accel_factor);
-	Acc_z = Acc_z/((float)accel_factor);
+	Acc_x = (Acc_x - bAx)/((float)accel_factor);
+	Acc_y = (Acc_y - bAy)/((float)accel_factor);
+	Acc_z = (Acc_z - bAz)/((float)accel_factor);
 
-	Gyro_x = Gyro_x/gyro_factor;
-	Gyro_y = Gyro_y/gyro_factor;
-	Gyro_z = Gyro_z/gyro_factor;
+	Gyro_x = (Gyro_x - bGx)/gyro_factor;
+	Gyro_y = (Gyro_y - bGy)/gyro_factor;
+	Gyro_z = (Gyro_z - bGz)/gyro_factor;
 
 
 	char buffer[7];
@@ -217,7 +217,7 @@ void process_MPU(){
 	complementary_filter(pitch,Gyro_x,0.01);
 
     ftoa(com_angle, buffer, 2);
-    HAL_UART_Transmit(&huart1, buffer, 7, 1000);
+    HAL_UART_Transmit(&huart1, buffer, 5, 1000);
     HAL_UART_Transmit(&huart1, &n, 1, 1000);
 //
 //    ftoa(Acc_y, buffer, 2);
@@ -243,10 +243,95 @@ void process_MPU(){
 void complementary_filter(float angle_acc,float gyro_rate,float dt){
 	com_angle = alpha*(com_angle + dt*gyro_rate) + (1-alpha)*angle_acc;
 }
-void calibration(){
-	init_MPU();
+void calib_MPU(){
 
+	float Acc_x,Acc_y,Acc_z,Gyro_x,Gyro_y,Gyro_z,roll,pitch;
+
+		uint8_t data[13];
+		uint8_t reg = ACCEL_XOUT_H;
+		uint8_t device_address = MPU_ADDRESS;
+	    uint8_t register_address = WHO_AM_I_REG;
+     for(int i = 0; i<100;i++){
+		while(HAL_I2C_Master_Transmit(&hi2c1,(uint16_t)device_address, &reg, 1, 1000) != HAL_OK);
+		while(HAL_I2C_Master_Receive(&hi2c1,(uint16_t)device_address, data,14, 1000) != HAL_OK);
+
+		Acc_x += (int16_t)(data[0] << 8 | data[1]);
+		Acc_y += (int16_t)(data[2] << 8 | data[3]);
+		Acc_z += (int16_t)(data[4] << 8 | data[5]);
+
+       //	    temp = (int16_t)(data[6] << 8 | data[7]);
+
+	    Gyro_x += (int16_t)(data[8] << 8 | data[9]);
+	    Gyro_y += (int16_t)(data[10] << 8 | data[11]);
+	    Gyro_z += (int16_t)(data[12] << 8 | data[13]);
+     }
+     	Acc_x = Acc_x/100;
+     	Acc_y = Acc_y/100;
+     	Acc_z = Acc_z/100;
+
+     	Gyro_x = Gyro_x/100;
+     	Gyro_y = Gyro_y/100;
+     	Gyro_z = Gyro_z/100;
+
+    bAx = Acc_x;
+    bAy = Acc_y;
+    bAz = Acc_z - 16384;
+
+    bGx = Gyro_x;
+    bGy = Gyro_y;
+    bGz = Gyro_z;
+
+	char buffer[5];
+	char n = ' ';
+	char r = '\n';
+//
+//    ftoa(bAx, buffer, 2);
+//    HAL_UART_Transmit(&huart1, buffer, 5, 1000);
+//    HAL_UART_Transmit(&huart1, &n, 1, 1000);
+//
+//    ftoa(bAy, buffer, 2);
+//    HAL_UART_Transmit(&huart1, buffer, 5, 1000);
+//    HAL_UART_Transmit(&huart1, &n, 1, 1000);
+//
+//    ftoa(bAz, buffer, 2);
+//    HAL_UART_Transmit(&huart1, buffer, 5, 1000);
+//    HAL_UART_Transmit(&huart1, &n, 1, 1000);
+//
+//    ftoa(bGx, buffer, 2);
+//    HAL_UART_Transmit(&huart1, buffer, 5, 1000);
+//    HAL_UART_Transmit(&huart1, &n, 1, 1000);
+//
+//    ftoa(bGy, buffer, 2);
+//    HAL_UART_Transmit(&huart1, buffer, 5, 1000);
+//    HAL_UART_Transmit(&huart1, &n, 1, 1000);
+//
+//    ftoa(bGz, buffer, 2);
+//    HAL_UART_Transmit(&huart1, buffer, 5, 1000);
+//    HAL_UART_Transmit(&huart1, &r, 1, 1000);
+//
+    ftoa(bAx, buffer, 2);
+    HAL_UART_Transmit(&huart1, buffer, 5, 1000);
+    HAL_UART_Transmit(&huart1, &n, 1, 1000);
+
+    ftoa(bAy, buffer, 2);
+    HAL_UART_Transmit(&huart1, buffer, 5, 1000);
+    HAL_UART_Transmit(&huart1, &n, 1, 1000);
+
+    ftoa(bAz, buffer, 2);
+    HAL_UART_Transmit(&huart1, buffer, 5, 1000);
+    HAL_UART_Transmit(&huart1, &n, 1, 1000);
+
+    ftoa(bGx, buffer, 2);
+    HAL_UART_Transmit(&huart1, buffer, 5, 1000);
+    HAL_UART_Transmit(&huart1, &n, 1, 1000);
+
+    ftoa(bGy, buffer, 2);
+    HAL_UART_Transmit(&huart1, buffer, 5, 1000);
+    HAL_UART_Transmit(&huart1, &n, 1, 1000);
+
+    ftoa(bGz, buffer, 2);
+    HAL_UART_Transmit(&huart1, buffer, 5, 1000);
+    HAL_UART_Transmit(&huart1, &r, 1, 1000);
 }
-
 
 

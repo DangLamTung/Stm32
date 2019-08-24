@@ -52,8 +52,8 @@ uart_test.list \
 all: uart_test.elf secondary-outputs
 
 # Tool invocations
-uart_test.elf: $(OBJS) $(USER_OBJS) D:\STMworkspace\uart_test\STM32F103C8TX_FLASH.ld
-	arm-none-eabi-g++ -o "uart_test.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\STMworkspace\uart_test\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+uart_test.elf: $(OBJS) $(USER_OBJS) /home/danglamtung/Stm32/uart_test/STM32F103C8TX_FLASH.ld
+	arm-none-eabi-g++ -o "uart_test.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"/home/danglamtung/Stm32/uart_test/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="uart_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

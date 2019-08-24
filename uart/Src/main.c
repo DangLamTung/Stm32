@@ -54,8 +54,6 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART1_UART_Init(void);
 static void MX_USART2_UART_Init(void);
-
-char rx_data[200];
 /* USER CODE BEGIN PFP */
 #ifdef __GNUC__
   /* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf
@@ -123,14 +121,14 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while(HAL_UART_Receive(&huart1, (uint8_t *)&ch, 1, 100)!=HAL_OK);
   while (1)
   {
     /* USER CODE END WHILE */
-	  HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 100);
-	  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-	  HAL_Delay(1000);
 
+    /* USER CODE BEGIN 3 */
+	  ch = '1';
+	  HAL_UART_Transmit(&huart1,&ch,1, 100);
+	  //HAL_Delay(1000);
   }
   /* USER CODE END 3 */
 }
@@ -218,7 +216,7 @@ static void MX_USART2_UART_Init(void)
 
   /* USER CODE END USART2_Init 1 */
   huart2.Instance = USART2;
-  huart2.Init.BaudRate = 9600;
+  huart2.Init.BaudRate = 115200;
   huart2.Init.WordLength = UART_WORDLENGTH_8B;
   huart2.Init.StopBits = UART_STOPBITS_1;
   huart2.Init.Parity = UART_PARITY_NONE;
@@ -246,6 +244,7 @@ static void MX_GPIO_Init(void)
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOC_CLK_ENABLE();
+  __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */

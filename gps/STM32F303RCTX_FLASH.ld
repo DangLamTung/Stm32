@@ -54,17 +54,17 @@
 ENTRY(Reset_Handler)
 
 /* Highest address of the user mode stack */
-_estack = 0x20009fff;	/* end of "RAM" Ram type memory */
+_estack = 0x2000a000;	/* end of "RAM" Ram type memory */
 
-_Min_Heap_Size = 0x200 ;	/* required amount of heap  */
-_Min_Stack_Size = 0x400 ;	/* required amount of stack */
+_Min_Heap_Size = 0x200;	/* required amount of heap  */
+_Min_Stack_Size = 0x400;	/* required amount of stack */
 
 /* Memories definition */
 MEMORY
 {
+    CCMRAM	(xrw)	: ORIGIN = 0x10000000,	LENGTH = 8K
+    RAM	(xrw)	: ORIGIN = 0x20000000,	LENGTH = 40K
     FLASH	(rx)	: ORIGIN = 0x8000000,	LENGTH = 256K
-    CCMRAM	(rwx)	: ORIGIN = 0x10000000,	LENGTH = 8K
-    RAM	(rwx)	: ORIGIN = 0x20000000,	LENGTH = 40K
 }
 
 /* Sections */
